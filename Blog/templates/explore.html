@@ -1,0 +1,14 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+{% for any in obj %}
+<a id="links" href="{% url 'read' key=any.PriKey %}">
+<div class="container text-center" id="fa">
+{{ any.Heading }}<br>
+{{ any.DateOfPost }}
+</div>
+</a><br>
+{% endfor %}
+{% endblock %}

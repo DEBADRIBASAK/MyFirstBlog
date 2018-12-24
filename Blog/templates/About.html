@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="container text-center" id="about_content">
+	<div class="row" style="width: 100%" id="inner">
+	<div class="col">
+		<h1>I am Debadri Basak</h1><br>
+
+		<img class="img img-responsive" src="{% static 'mypic.jpg' %}" style="max-height: 300px;max-width:400px;"><br><br>
+		<h5>Visit my Github and LinkedIn Profiles</h5><br>
+		<a href="https://github.com/DEBADRIBASAK" target="_blank"><strong style="color:black" class="fa fa-lg fa-github"> </strong></a>
+		<a href="https://www.linkedin.com/in/debadri-basak-737540149/" target="_blank"><strong style="color:black" class="fa fa-lg fa-linkedin "> </strong></a>
+	</div>
+<div class="col text-center text" id="inner">	
+	<h3>I am a Computer Science and Engineering undergraduate pursuing my studies in National Institute of Technology, Warangal</h3>
+ <p>
+ 	I learned to code in the first year of my B.Tech curriculum and from that very point of time, I started to love coding. I am passionate about exploring several fields of Computer Science and learn something new in them.My interests mainly include:
+ </p>
+ <ul>
+				<li>Competitive Coding</li>
+				<li>Web Development</li>
+				<li>Machine learning</li>
+				<li>Anything related to academics!</li>
+			</ul>
+			<p>
+				Apart from Computer Science, my other hobbies include:
+			</p>
+			<ul>
+				<li>Reading story books( Genres include horror,detective,humour everything!)</li>
+				<li>Writing</li>
+				<li>Painting (Pencil sketching to be precise!)</li>
+				<li>Playing Guitar ( Basic skills )</li>
+			</ul>
+</div>
+ </div>
+</div>
+{% endblock %}

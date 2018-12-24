@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container text-center" id="content">
+  <div id="inner">
+  <h2>{{ obj.Heading }}</h2>
+  <h5 id="Date">{{ obj.DateOfPost }}</h5>
+
+  <p>
+      {{ obj.Content }}
+  </p>
+</div>
+</div>
+
+{% endblock %}

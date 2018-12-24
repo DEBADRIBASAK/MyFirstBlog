@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		This page is private
+	</title>
+</head>
+<body>
+<form method="post" id="usrform">
+	{% csrf_token %}
+	<label>Name: </label>
+	<input type="text" name="Heading"><br>
+	<label>Content: </label><br>
+	<textarea rows="50" cols="100" name="Content"></textarea><br>
+	<button type="submit">Submit</button>
+</form>
+</body>
+</html>
